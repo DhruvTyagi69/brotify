@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(239, 221, 200);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+nav ul{
+    display : flex;
+    align-items: center;
+    list-style-type: none;
+    height:70px;
+    background-color:black;
+}
+nav ul li{
+    padding :0 12px;
+}
+.brand img{
+    height:70px;   
+}
+.brand{
+    display:flex;
+    align-items: center;
+}
+.container{
+    display: flex;
+    min-height: 72vh;
+    background-color: black;
+    color:rgb(255, 254, 253);
+    font-family: 'Times New Roman', Times, serif;
+    margin:23px auto;
+    width:50%;
+    border-radius:12px;
+    padding:0px;
+    background-image:url('bg.jfif');
+    background-repeat:round;
+  
+}
+.bottom{
+    position:sticky;
+    height:130px;
+    background-color:rgb(226, 240, 240);
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.icons{
+    display:flex;
+    width:60px;
+    cursor:pointer;
+}
+.icon1{
+    display:flex;
+    padding: 2px;
+}
+.icon2{
+    display:flex;
+    padding: 2px;
+}
+.icon3{
+    display:flex;
+    padding: 2px;
+}
+#myProgressbar{
+    width:80vw;
+    color: aqua;   
+    cursor:pointer;
+}
+.songitem{
+      height:20px;
+      display:flex;
+      background-color:white;
+      width:250px;
+      color:black;
+      margin:12px auto;
+      justify-content:space-between;
+      text-align: center;
+      border-radius: 4px;
+}
+.songitem img{
+       width:auto;
+       margin: 0px;
+       border-radius: 3px;
+}
+h1 {
+    text-align: center;
+}
+.timestamp {
+        cursor:pointer;
+        padding:4px;
+}
+.timestamp i{
+    cursor:pointer;
+}
+.itemcontainer{
+    margin-top:14px;
+    
+}
+.songinfo{
+    position: absolute;
+    left:100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.songinfo img{
+    opacity:1;
+    transition: opacity 0.4s ease-out;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    background:black;
+    
+}
